@@ -12,7 +12,7 @@ function Note(props) {
   };
   return (
     <div className="note">
-      <ul><li onClick={changeStyle} className={style? "crossed-line":null}>{props.content}</li></ul>
+      <ul><li onClick={changeStyle} className={style?"crossed-line":null}>{props.content}</li></ul>
       <button onClick={handleClick}>Delete</button>
     </div>
   );
