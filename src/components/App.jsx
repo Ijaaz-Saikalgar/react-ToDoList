@@ -16,6 +16,7 @@ function App() {
       return prevNotes.filter((listItem, index) => {
         console.log(listItem, index, id);
         return index !== id;
+       
       });
     });
   }
