@@ -87,9 +87,8 @@ form button {
 }
 
 .clearContainer {
-  width: 487px;
   display: block;
-  margin: auto;
+  text-align: center;
 }
 .clearContainer button {
   border: none;
