@@ -24,7 +24,7 @@ button:hover{
   border-radius: 7px;
   box-shadow: 0 2px 5px #ccc;
   padding: 10px;
-  width: 490px;
+  max-width: 490px;
   margin: 16px auto;
 }
 
@@ -39,7 +39,7 @@ button:hover{
   margin: 0;
   font-size: 18px;
   line-height: 35px;
-  width: 405px;
+  max-width: 405px;
   font-family: sans-serif;
 }
 
